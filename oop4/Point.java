@@ -1,4 +1,4 @@
-package test2java.oop4;
+package oop4;
 
 public class Point {
 	private double x;

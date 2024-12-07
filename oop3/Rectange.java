@@ -1,4 +1,4 @@
-package test2java.oop3;
+package oop3;
 
 public class Rectange {
 	private double width;

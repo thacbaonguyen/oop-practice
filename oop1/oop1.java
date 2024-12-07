@@ -1,4 +1,4 @@
-package test2java.oop;
+package oop1;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
