@@ -22,29 +22,28 @@ public class oop52 {
 				if(!x.isEmpty()) map.put(x, map.getOrDefault(x, 0) + 1);
 			}
 		}
-		ArrayList<Pair<String, Integer>> arr = new ArrayList<>();
+		ArrayList<Pair> arr = new ArrayList<>();
 		for(Map.Entry<String, Integer> x : map.entrySet()) {
-			arr.add(new Pair<>(x.getKey(), x.getValue()));
+			arr.add(new Pair(x.getKey(), x.getValue()));
 		}
 		Collections.sort(arr);
-		for(Pair<String, Integer> x : arr) System.out.println(x);
+		for(Pair x : arr) System.out.println(x);
 	}
 }
-//class Pair<X extends Comparable, Y extends Comparable> implements Comparable<Pair> {
-//	private X first;
-//	private Y second;
-//	public Pair(X first, Y second) {
-//		this.first = first;
-//		this.second = second;
-//	}
-//	@Override
-//	public int compareTo(Pair o) {
-//		if(!second.equals(o.second)) return o.second.compareTo(second);
-//		return first.compareTo(o.first);
-//	}
-//	@Override
-//	public String toString() {
-//		return first + " " + second;
-//	}
-//}
-
+class Pair implements Comparable<Pair> {
+	private String first;
+	private Integer second;
+	public Pair(String first, Integer second) {
+		this.first = first;
+		this.second = second;
+	}
+	@Override
+	public int compareTo(Pair o) {
+		if(second != o.second) return Integer.compare(o.second, second);
+		return first.compareTo(o.first);
+	}
+	@Override
+	public String toString() {
+		return first + " " + second;
+	}
+}
