@@ -26,10 +26,10 @@ public class oop35 {
         String phongBanId = sc.next();
         String phongBanName = "";
         for (PhongBan x : a)
-            if (x.getId().equals(phongBanId)) phongBanName = x.getName();
+            if (x.getma().equals(phongBanId)) phongBanName = x.gettenPhongBan();
         System.out.printf("Bang luong phong %s:\n", phongBanName);
         for (NhanVien x : b)
-            if (x.getPhongBanId().equals(phongBanId)) System.out.println(x);
+            if (x.getPhongBanmaNV().equals(phongBanId)) System.out.println(x);
         sc.close();
     }
 }

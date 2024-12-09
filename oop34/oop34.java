@@ -52,7 +52,7 @@ public class oop34 {
             String ten = sc.nextLine();
             System.out.printf("Danh sach cho giang vien %s:\n", ten);
             for (LopHoc x : a)
-                if (x.getteacherten().equals(ten)) System.out.println(x);
+                if (x.gettenGV().equals(ten)) System.out.println(x);
         }
         sc.close();
     }
