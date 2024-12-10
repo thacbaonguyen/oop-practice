@@ -1,26 +1,18 @@
 package basic;
-import java.util.Scanner;
+import java.util.*;
 
 public class bai35 {
-    public static boolean nto(char x){
-        return x=='2'||x=='3'||x=='5'||x=='7';
-    }
-
-    public static boolean res(String s){
-        for(int i=0;i<s.length()/2;++i){
-            char x=s.charAt(i);
-            char y=s.charAt(s.length()-i-1);
-            if (!nto(x)||!nto(y)||x!=y) return false;
-        }
-        return true;
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t=sc.nextInt();
-        while(t-->0){
-            System.out.println(res(sc.next())?"YES":"NO");
+        int n=sc.nextInt();
+        Stack<Integer> s=new Stack<Integer>();
+        for(int i=0;i<n;++i){
+            int a=sc.nextInt();
+            if (s.empty()) s.push(a);
+            else if ((s.peek()+a)%2==0) s.pop();
+            else s.push(a);
         }
+        System.out.println(s.size());
         sc.close();
     }
 }
