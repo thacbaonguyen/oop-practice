@@ -17,6 +17,5 @@ public class bai58 {
             else n=Integer.parseInt(s.substring(s.length()-2));
             System.out.println((1+a[n%4]+b[n%4]+c[n%2])%5);
         }
-        sc.close();
     }
 }

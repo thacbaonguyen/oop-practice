@@ -26,6 +26,5 @@ public class bai59 {
             }
             if (!b.isEmpty()) System.out.println(b.substring(0,b.length()-1)+".");
         }
-        sc.close();
     }
 }
