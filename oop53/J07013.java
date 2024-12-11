@@ -16,27 +16,3 @@ public class J07013 {
 		for(SinhVien x : arr) System.out.println(x);
 	}
 }
-//class SinhVien {
-//	private String maSinhVien;
-//	private String tenSinhVien;
-//	private String lop;
-//	private Date ngaySinh;
-//	private float gpa;
-//	private static int cnt = 1;
-//	private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-//	public SinhVien(int id, String tenSinhVien, String lop, String ngaySinh, float gpa) {
-//		super();
-//		maSinhVien = "B20DCCN" + String.format("%03d", ++id);
-//		this.tenSinhVien = tenSinhVien;
-//		this.lop = lop;
-//		try {
-//			this.ngaySinh = sdf.parse(ngaySinh);
-//		} catch (ParseException e) {
-//		}
-//		this.gpa = gpa;
-//	}
-//	@Override
-//	public String toString() {
-//			return maSinhVien + " " + tenSinhVien + " " + lop + " " + sdf.format(ngaySinh) + " " + String.format("%.2f", gpa);
-//	}
-//}
