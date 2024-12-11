@@ -1,4 +1,4 @@
-package oop32;
+package OOP32;
 
 import java.util.*;
 

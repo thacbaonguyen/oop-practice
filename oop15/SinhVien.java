@@ -1,4 +1,4 @@
-package oop15;
+package OOP15;
 
 public class SinhVien {
 	private String maSv;

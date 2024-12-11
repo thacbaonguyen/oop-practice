@@ -1,4 +1,4 @@
-package oop20;
+package OOP20;
 
 public class SinhVien {
 	private String maSinhVien;

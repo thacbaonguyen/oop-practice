@@ -1,4 +1,4 @@
-package oop22;
+package OOP22;
 
 public class MatHang {
 	private String maMatHang, tenMatHang, donViTinh;

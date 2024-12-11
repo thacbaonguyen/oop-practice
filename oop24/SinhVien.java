@@ -1,4 +1,4 @@
-package oop24;
+package OOP24;
 
 public class SinhVien {
 	private String maSinhVien;

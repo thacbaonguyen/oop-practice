@@ -1,4 +1,4 @@
-package oop20;
+package OOP20;
 
 import java.util.ArrayList;
 import java.util.Collections;

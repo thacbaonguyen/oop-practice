@@ -1,4 +1,4 @@
-package oop12;
+package OOP12;
 
 import java.util.ArrayList;
 import java.util.Collections;

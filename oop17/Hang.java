@@ -1,4 +1,4 @@
-package oop17;
+package OOP17;
 
 public class Hang {
 	private String maHang;

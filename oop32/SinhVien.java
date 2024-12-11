@@ -1,4 +1,4 @@
-package oop32;
+package OOP32;
 
 public class SinhVien {
     public static final String KEY = "B20DCCN";

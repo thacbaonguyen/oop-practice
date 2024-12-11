@@ -1,4 +1,4 @@
-package oop18;
+package OOP18;
 
 import java.util.ArrayList;
 import java.util.HashMap;

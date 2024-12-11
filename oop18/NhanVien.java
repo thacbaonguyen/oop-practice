@@ -1,4 +1,4 @@
-package oop18;
+package OOP18;
 
 public class NhanVien {
 	private String maNhanVien;

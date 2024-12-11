@@ -1,4 +1,4 @@
-package oop22;
+package OOP22;
 
 import java.util.ArrayList;
 import java.util.Scanner;

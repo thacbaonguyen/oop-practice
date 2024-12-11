@@ -1,4 +1,4 @@
-package oop28;
+package OOP28;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

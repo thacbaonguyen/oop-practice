@@ -1,4 +1,4 @@
-package oop26;
+package OOP26;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

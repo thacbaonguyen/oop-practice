@@ -1,4 +1,4 @@
-package oop27;
+package OOP27;
 
 public class LopHoc implements Comparable<LopHoc>{
 	private String maNhom, maMon;

@@ -1,4 +1,4 @@
-package oop13;
+package OOP13;
 
 public class FootballClub {
 	private String maClb;

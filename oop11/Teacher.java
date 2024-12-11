@@ -1,4 +1,4 @@
-package oop11;
+package OOP11;
 
 public class Teacher {
 	private String maNgach;

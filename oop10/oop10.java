@@ -1,4 +1,4 @@
-package oop10;
+package OOP10;
 
 import java.util.ArrayList;
 import java.util.Scanner;

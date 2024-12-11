@@ -1,4 +1,4 @@
-package oop24;
+package OOP24;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

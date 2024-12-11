@@ -1,4 +1,4 @@
-package oop2;
+package OOP2;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

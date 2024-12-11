@@ -1,4 +1,4 @@
-package oop1;
+package OOP1;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;

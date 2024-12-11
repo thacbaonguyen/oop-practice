@@ -1,4 +1,4 @@
-package oop23;
+package OOP23;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package oop3;
+package OOP3;
 
 import java.util.Scanner;
 

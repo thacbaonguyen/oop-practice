@@ -1,4 +1,4 @@
-package oop25;
+package OOP25;
 
 import java.io.File;
 import java.io.FileNotFoundException;

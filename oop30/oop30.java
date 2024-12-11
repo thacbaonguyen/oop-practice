@@ -1,4 +1,4 @@
-package oop30;
+package OOP30;
 
 import java.io.File;
 import java.io.FileNotFoundException;

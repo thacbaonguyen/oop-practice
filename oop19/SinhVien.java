@@ -1,4 +1,4 @@
-package oop19;
+package OOP19;
 
 public class SinhVien {
 	private String maSinhVien;

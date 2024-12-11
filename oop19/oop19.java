@@ -1,4 +1,4 @@
-package oop19;
+package OOP19;
 
 import java.util.ArrayList;
 import java.util.Scanner;

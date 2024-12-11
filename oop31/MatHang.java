@@ -1,4 +1,4 @@
-package oop31;
+package OOP31;
 
 public class MatHang implements Comparable<MatHang> {
     public static int ID = 0;
