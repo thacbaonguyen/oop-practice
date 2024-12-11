@@ -2,36 +2,6 @@ package oop38;
 
 import java.util.*;
 
-//class Point {
-//    private double x;
-//    private double y;
-//
-//    public Point(double x, double y) {
-//        this.x = x;
-//        this.y = y;
-//    }
-//
-//    public double getX() {
-//        return x;
-//    }
-//
-//    public void setX(double x) {
-//        this.x = x;
-//    }
-//
-//    public double getY() {
-//        return y;
-//    }
-//
-//    public void setY(double y) {
-//        this.y = y;
-//    }
-//
-//    public double distance(Point other) {
-//        return Math.sqrt(Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2));
-//    }
-//}
-
 public class oop38 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in).useLocale(Locale.getDefault());

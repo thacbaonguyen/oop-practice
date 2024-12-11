@@ -43,30 +43,7 @@ public class oop18 {
 			if(namCongTac >= 9 && namCongTac <=15) index = 2;
 			if(namCongTac >= 16) index = 3;
 			heSo = map.get(phanLoai)[index];
-//			if(phanLoai.equals("A")) {
-//				if(namCongTac >= 1 && namCongTac <=3) heSo = 10;
-//				if(namCongTac >= 4 && namCongTac <=8) heSo = 12;
-//				if(namCongTac >= 9 && namCongTac <=15) heSo = 14;
-//				if(namCongTac >= 16 ) heSo = 20;
-//			}
-//			if(phanLoai.equals("B")) {
-//				if(namCongTac >= 1 && namCongTac <=3) heSo = 10;
-//				if(namCongTac >= 4 && namCongTac <=8) heSo = 11;
-//				if(namCongTac >= 9 && namCongTac <=15) heSo = 13;
-//				if(namCongTac >= 16 ) heSo = 16;
-//			}
-//			if(phanLoai.equals("C")) {
-//				if(namCongTac >= 1 && namCongTac <=3) heSo = 9;
-//				if(namCongTac >= 4 && namCongTac <=8) heSo = 10;
-//				if(namCongTac >= 9 && namCongTac <=15) heSo = 12;
-//				if(namCongTac >= 16 ) heSo = 14;
-//			}
-//			if(phanLoai.equals("D")) {
-//				if(namCongTac >= 1 && namCongTac <=3) heSo = 8;
-//				if(namCongTac >= 4 && namCongTac <=8) heSo = 9;
-//				if(namCongTac >= 9 && namCongTac <=15) heSo = 11;
-//				if(namCongTac >= 16 ) heSo = 13;
-//			}
+
 			NhanVien nhanVien = new NhanVien(maNhanVien, hoVaTen, luongCoBan, soNgayCong, phongBan, heSo);
 			arr.add(nhanVien);
 		}
@@ -76,24 +53,3 @@ public class oop18 {
 
 	}
 }
-//class NhanVien {
-//	private String maNhanVien;
-//	private String tenNhanVien;
-//	private long luongCoBan;
-//	private int soNgayCong, heSo;
-//	private String phongBan;
-//	public NhanVien(String maNhanVien, String tenNhanVien, long luongCoBan, int soNgayCong, String phongBan, int heSo) {
-//		super();
-//		this.maNhanVien = maNhanVien;
-//		this.tenNhanVien = tenNhanVien;
-//		this.luongCoBan = luongCoBan;
-//		this.soNgayCong = soNgayCong;
-//		this.phongBan = phongBan;
-//		this.heSo = heSo;
-//	}
-//	public String toString() {
-//		long luongThang = luongCoBan* soNgayCong* heSo* 1000;
-//		return maNhanVien + " " + tenNhanVien + " " + phongBan + " " + luongThang;
-//	}
-//	
-//}

@@ -2,34 +2,6 @@ package oop34;
 
 import java.util.*;
 
-//class LopHoc implements Comparable<LopHoc> {
-//    private String maMH;
-//    private String tenMH;
-//    private String nhom;
-//    private String teacherten;
-//
-//    public LopHoc(String maMH, String tenMH, String nhom, String teacherten) {
-//        this.maMH = maMH;
-//        this.tenMH = tenMH;
-//        this.nhom = nhom;
-//        this.teacherten = teacherten;
-//    }
-//
-//    public String getteacherten() {
-//        return teacherten;
-//    }
-//
-//    @Override
-//    public int compareTo(LopHoc o) {
-//        if (!this.maMH.equals(o.maMH)) return this.maMH.compareTo(o.maMH);
-//        return this.nhom.compareTo(o.nhom);
-//    }
-//
-//    @Override
-//    public String toString() {
-//        return String.format("%s %s %s", this.maMH, this.tenMH, this.nhom);
-//    }
-//}
 
 public class oop34 {
     public static void main(String[] args) {
